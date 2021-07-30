@@ -2,7 +2,6 @@ import React from 'react';
 import Home from './component/Home';
 import Profil from "./component/Profil";
 import Logout from "./component/logout";
-import Awal from './Pages/Home';
 import LoginForm from './Pages/LogIn';
 import { getUsersList } from './component/fetchData';
 import { ErrorPage } from './Pages/ErrorPage';
