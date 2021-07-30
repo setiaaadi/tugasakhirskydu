@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "username": "putra",
+      "password": "putra",
+      "role": "user",
+      "id": "WbcHhgB"
+    },
+    {
+      "username": "novita",
+      "password": "novita",
+      "role": "user",
+      "id": "M59siKl"
+    },
+    {
+      "username": "hayani",
+      "password": "hayani",
+      "role": "user",
+      "id": "CD_ZybV"
+    }
+  ]
+}
