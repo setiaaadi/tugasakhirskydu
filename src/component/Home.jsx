@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import Profil from "./Profil";
-
 import Skydu from "../gambar/skydu.jpg";
 import Icons from "../gambar/icons.jpg";
 import Ellipse_head from "../gambar/Ellipse_head.jpg";

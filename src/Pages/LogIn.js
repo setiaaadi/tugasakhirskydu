@@ -31,7 +31,7 @@ class LoginForm extends React.Component {
         this.addUser = this.addUser.bind(this);
     }
 
-    // METHODS FOR EXISTING USER
+    // METHODS untuk yang sudah ada
 
     handleChangeUserName(event) {
         this.setState({
@@ -51,7 +51,7 @@ class LoginForm extends React.Component {
             alert('Input fields cannot be empty')
         }
 
-        // does input credential match credentials from any user in usersList from <App />
+        // apakah inputan cocok yang di db.json daftar pengguna
         let filteredUser = this.props.usersList.filter(user => {
             if (user.username === this.state.newUser.username && user.password === this.state.newUser.password) {
                 return true;
@@ -59,7 +59,7 @@ class LoginForm extends React.Component {
             return false;
         })
 
-        // If credentials do match, proceed into <Home /> with that user and set him as logged in localStorage
+        // Jika  cocok, lanjutkan ke <Home /> dengan pengguna itu dan atur dia sebagai login di Penyimpanan lokal
         if (filteredUser && filteredUser.length === 1) {
             this.props.logIn(filteredUser[0]);
             localStorage.setItem('loggedUser', JSON.stringify(filteredUser[0].id));
@@ -76,7 +76,7 @@ class LoginForm extends React.Component {
         }
     }
 
-    // METHODS FOR NEW USER
+    // METHODS FOR untuk nambah user baru
 
     addUserToUsersList() {
         postRequest(this.state.newUser).then((res) => {
