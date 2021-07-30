@@ -10,7 +10,7 @@ import Comment_bar from "../gambar/profil/Comment.png";
 import Share_bar from "../gambar/profil/Share.png";
 import Menu from "../gambar/profil/menu.png";
 import contoh from "../gambar/profil/contoh1.png";
-import "../profil.css";
+import "../css/profil.css";
 
 class Profil extends Component {
   render() {

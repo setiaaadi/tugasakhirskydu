@@ -41,6 +41,24 @@
       "password": "kami",
       "role": "user",
       "id": "ts6JEiL"
+    },
+    {
+      "username": "adi",
+      "password": "adi123",
+      "role": "user",
+      "id": "4sU6aqN"
+    },
+    {
+      "username": "mama",
+      "password": "mama123",
+      "role": "user",
+      "id": "-U8ulD3"
+    },
+    {
+      "username": "tita",
+      "password": "tita123",
+      "role": "user",
+      "id": "QgAk8oj"
     }
   ]
 }

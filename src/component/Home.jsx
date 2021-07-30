@@ -12,6 +12,7 @@ import Menu from "../gambar/menu.png";
 import Cm1 from "../gambar/Ellipse1.png";
 import Cm2 from "../gambar/Ellipse2.png";
 import Cm3 from "../gambar/Ellipse3.png";
+import "../css/home.css";
 
 class Home extends Component {
   render() {
